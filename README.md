@@ -96,21 +96,3 @@ git clone https://github.com/your-username/your-repo-name.git
 
 ---
 
-## Project Structure
-
-```
-src/
- ├── Main.java
- ├── GameController.java
- ├── ComputerPlayer.java
- ├── DPStrategy.java
- └── views/
-```
-
----
-
-## CV Description
-
-Developed a JavaFX dynamic programming game where players choose numbers from both ends of an array to maximize their final score.
-Implemented Player vs Player and Player vs Computer modes with an optimal computer strategy based on DP.
-Applied the recurrence `dp[i][j] = max(arr[i] - dp[i+1][j], arr[j] - dp[i][j-1])` to determine the best move.
